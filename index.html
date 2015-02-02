@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+	
+<html>
+	<head>
+		<title> Guessing Game: Backbone </title>
+		<link rel="stylesheet" href="backbone-view/styles/reset.css">
+		<link rel="stylesheet" href="backbone-view/styles/style.css">
+	</head>
+
+	<body>
+
+		<section class ="instructions">
+		<h1> 
+			Wanna Play The Guessing Game? 
+		</h1>
+
+		<h2> 
+			Here is what you do!
+		</h2>
+
+		<ol>
+			<li> The computer is going to generate a number between 1 and a 100. </li>
+			<li> You enter a number, trying to guess the right one. </li>
+			<li> If you are too low or too high the computer will notify you and let you re-guess. </li>
+			<li> If you guess right, you win and you get 1 point </li>
+		</ol>
+
+		<input id='text-box' type="text" placeholder="Enter your guess">
+
+		<button id ="start-button">
+			Guess
+		</button>
+
+			<section id ='app_view'>	
+				<div id ='win-lose-box'>
+				</div>
+
+				<h2> 
+					Score
+				</h2>
+
+				<div id="score-box">
+					0
+				</div>
+			</section>
+
+			<button id="play-again">
+				Play Again?
+			</button>
+
+
+		</section>
+
+		
+
+
+		<script type='text/javascript' src='backbone-view/bower_components/jquery/dist/jquery.min.js'></script>
+		<script type='text/javascript' src='backbone-view/bower_components/underscore/underscore-min.js'></script>
+		<script type='text/javascript' src='backbone-view/bower_components/backbone/backbone.js'></script>
+		<script type='text/javascript' src='backbone-view/scripts//views/AppView.js'></script>
+		<script type='text/javascript' src='backbone-view/scripts/main.js'></script>
+	</body>
+</html>

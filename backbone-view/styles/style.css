@@ -1,0 +1,36 @@
+
+.instructions {
+	text-align: center;
+	margin:0 auto;
+	margin-top:2em;
+	margin-bottom:0.5em;
+
+}
+
+.instructions h1{
+ 	font-size:3em;
+	font-weight:600;
+}
+
+.instructions h2{
+	font-weight:600;
+	font-size:2em;
+	margin-top:0.5em;
+	margin-bottom:1em;
+}
+
+ol {
+	list-style:none;
+	margin-bottom:0.5em;
+}
+
+#score-box {
+	font-size: 4em;
+	font-weight: 500;
+}
+
+#win-lose-box {
+	margin-top: 0.5em;
+}
+
+
